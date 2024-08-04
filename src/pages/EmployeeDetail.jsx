@@ -41,7 +41,7 @@ const EmployeeDetail = () => {
   return (
     <section className="text-white w-full min-h-screen flex justify-center items-center flex-col gap-8">
       <h2 className="text-6xl font-semibold text-indigo-600">
-        Detail of {employee?.name}
+        Details of {employee?.name}
       </h2>
       <div className=" bg-[#121721] text-[1.2rem] border border-blue-400 w-[90%] max-w-[30rem] py-3 px-5 rounded-lg flex flex-col gap-3">
         <div className="flex items-center">
