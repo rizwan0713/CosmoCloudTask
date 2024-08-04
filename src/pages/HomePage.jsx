@@ -23,11 +23,13 @@ const HomePage = () => {
         }
       );
       const data = await DeleteEmployee.json();
-
-      console.log("Delete Api response : ", data);
+       
+      toast.success("Employee Deleted Successfully")
       getAllData();
       setConfirmationModal(null);
     } catch (error) {
+      toast.error("Employee Deleted Successfully")
+
       console.log("Error in Deleting Employee - ", error.message);
     }
   }
